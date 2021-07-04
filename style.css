@@ -5,7 +5,6 @@ body{
 
 .flexible-container{
     width: 50%;
-    
 }
 .top-banner h1{
     font-size: 50px;
@@ -19,7 +18,7 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.top-banner a{
+.link-btn{
     color: white;
     font-weight: 700;
     background-image: linear-gradient(orange, rgb(255, 188, 42));
@@ -30,6 +29,19 @@ body{
 .top-banner p{
     color: rgb(109, 107, 107);
 }
-.top-banner img{
-    width: 80%;
+.flexible-container img{
+    width: 75%;
+}
+.dream-sec{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-sec h2{
+    font-size: 40px;
+}
+.dream-sec p{
+    color: rgb(109, 107, 107);
+    padding-right: 70px;
 }
