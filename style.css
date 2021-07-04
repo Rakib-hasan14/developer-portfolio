@@ -30,15 +30,18 @@ body{
 .top-banner p{
     color: rgb(109, 107, 107);
     padding-right: 40px;
+    font-size: 18px;
+    word-spacing: 4px;
 }
 .flexible-container img{
-    width: 75%;
+    width: 84%;
 }
 .dream-sec{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
 }
 .dream-sec h2{
     font-size: 40px;
